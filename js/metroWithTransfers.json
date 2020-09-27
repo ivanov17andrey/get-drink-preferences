@@ -1,0 +1,3292 @@
+{
+  "lines": [
+    {
+      "id": 0,
+      "number": "01",
+      "title": "Сокольническая линия",
+      "hexColor": "EF161E",
+      "stations": [
+        {
+          "id": 0,
+          "order": 0,
+          "title": "Бульвар Рокоссовского",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Бульвар Рокоссовского Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 248, "order": 5, "title": "Бульвар Рокоссовского" }
+          ]
+        },
+        {
+          "id": 1,
+          "order": 1,
+          "title": "Черкизовская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Локомотив Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 249, "order": 6, "title": "Локомотив" }]
+        },
+        {
+          "id": 2,
+          "order": 2,
+          "title": "Преображенская площадь",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 3,
+          "order": 3,
+          "title": "Сокольники",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 4,
+          "order": 4,
+          "title": "Красносельская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 5,
+          "order": 5,
+          "title": "Комсомольская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Комсомольская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 90, "order": 6, "title": "Комсомольская" }
+          ]
+        },
+        {
+          "id": 6,
+          "order": 6,
+          "title": "Красные Ворота",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 7,
+          "order": 7,
+          "title": "Чистые пруды",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию Тургеневская Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            },
+            {
+              "number": "10",
+              "str": "Переход на станцию Сретенский бульвар Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 104, "order": 8, "title": "Тургеневская" },
+            { "id": 195, "order": 9, "title": "Сретенский бульвар" }
+          ]
+        },
+        {
+          "id": 8,
+          "order": 8,
+          "title": "Лубянка",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Кузнецкий Мост Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 130, "order": 11, "title": "Кузнецкий Мост" }
+          ]
+        },
+        {
+          "id": 9,
+          "order": 9,
+          "title": "Охотный Ряд",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Театральная Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            },
+            {
+              "number": "03",
+              "str": "Переход на станцию Площадь Революции Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 37, "order": 11, "title": "Театральная" },
+            { "id": 62, "order": 12, "title": "Площадь Революции" }
+          ]
+        },
+        {
+          "id": 10,
+          "order": 10,
+          "title": "Библиотека имени Ленина",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Переход на станцию Арбатская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            },
+            {
+              "number": "04",
+              "str": "Переход на станцию Александровский сад Филёвской линии",
+              "title": "Филёвская линия"
+            },
+            {
+              "number": "09",
+              "str": "Переход на станцию Боровицкая Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 61, "order": 11, "title": "Арбатская" },
+            { "id": 83, "order": 12, "title": "Александровский сад" },
+            { "id": 172, "order": 11, "title": "Боровицкая" }
+          ]
+        },
+        {
+          "id": 11,
+          "order": 11,
+          "title": "Кропоткинская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 12,
+          "order": 12,
+          "title": "Парк культуры",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Парк культуры Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 84, "order": 0, "title": "Парк культуры" }
+          ]
+        },
+        {
+          "id": 13,
+          "order": 13,
+          "title": "Фрунзенская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 14,
+          "order": 14,
+          "title": "Спортивная",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Лужники Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 263, "order": 20, "title": "Лужники" }]
+        },
+        {
+          "id": 15,
+          "order": 15,
+          "title": "Воробьёвы горы",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 16,
+          "order": 16,
+          "title": "Университет",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 17,
+          "order": 17,
+          "title": "Проспект Вернадского",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 18,
+          "order": 18,
+          "title": "Юго-Западная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 19,
+          "order": 19,
+          "title": "Тропарёво",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 20,
+          "order": 20,
+          "title": "Румянцево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 21,
+          "order": 21,
+          "title": "Саларьево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 22,
+          "order": 22,
+          "title": "Филатов луг",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 23,
+          "order": 23,
+          "title": "Прокшино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 24,
+          "order": 24,
+          "title": "Ольховая",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 25,
+          "order": 25,
+          "title": "Коммунарка",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "02",
+      "title": "Замоскворецкая линия",
+      "hexColor": "2DBE2C",
+      "stations": [
+        {
+          "id": 26,
+          "order": 0,
+          "title": "Ховрино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 27,
+          "order": 1,
+          "title": "Беломорская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 28,
+          "order": 2,
+          "title": "Речной вокзал",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 29,
+          "order": 3,
+          "title": "Водный стадион",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 30,
+          "order": 4,
+          "title": "Войковская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Балтийская Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            },
+            {
+              "number": "14",
+              "str": "Переход на станцию Стрешнево Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 271, "order": 28, "title": "Балтийская" },
+            { "id": 270, "order": 27, "title": "Стрешнево" }
+          ]
+        },
+        {
+          "id": 31,
+          "order": 5,
+          "title": "Сокол",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 32,
+          "order": 6,
+          "title": "Аэропорт",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 33,
+          "order": 7,
+          "title": "Динамо",
+          "transferToLine": [
+            {
+              "number": "8А",
+              "str": "Переход на станцию Петровский парк Солнцевской линии",
+              "title": "Солнцевская линия"
+            },
+            {
+              "number": "11",
+              "str": "Переход на станцию Петровский парк Большой кольцевой линии",
+              "title": "Большая кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 216, "order": 14, "title": "Петровский парк" },
+            { "id": 217, "order": 4, "title": "Петровский парк" }
+          ]
+        },
+        {
+          "id": 34,
+          "order": 8,
+          "title": "Белорусская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Белорусская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 93, "order": 9, "title": "Белорусская" }
+          ]
+        },
+        {
+          "id": 35,
+          "order": 9,
+          "title": "Маяковская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 36,
+          "order": 10,
+          "title": "Тверская",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Пушкинская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            },
+            {
+              "number": "09",
+              "str": "Переход на станцию Чеховская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 129, "order": 10, "title": "Пушкинская" },
+            { "id": 171, "order": 10, "title": "Чеховская" }
+          ]
+        },
+        {
+          "id": 37,
+          "order": 11,
+          "title": "Театральная",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Охотный Ряд Сокольнической линии",
+              "title": "Сокольническая линия"
+            },
+            {
+              "number": "03",
+              "str": "Переход на станцию Площадь Революции Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 9, "order": 9, "title": "Охотный Ряд" },
+            { "id": 62, "order": 12, "title": "Площадь Революции" }
+          ]
+        },
+        {
+          "id": 38,
+          "order": 12,
+          "title": "Новокузнецкая",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию Третьяковская Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            },
+            {
+              "number": "08",
+              "str": "Переход на станцию Третьяковская Калининской линии",
+              "title": "Калининская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 106, "order": 10, "title": "Третьяковская" },
+            { "id": 153, "order": 0, "title": "Третьяковская" }
+          ]
+        },
+        {
+          "id": 39,
+          "order": 13,
+          "title": "Павелецкая",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Павелецкая Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [{ "id": 87, "order": 3, "title": "Павелецкая" }]
+        },
+        {
+          "id": 40,
+          "order": 14,
+          "title": "Автозаводская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Автозаводская Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 258, "order": 15, "title": "Автозаводская" }
+          ]
+        },
+        {
+          "id": 41,
+          "order": 15,
+          "title": "Технопарк",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 42,
+          "order": 16,
+          "title": "Коломенская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 43,
+          "order": 17,
+          "title": "Каширская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 44,
+          "order": 18,
+          "title": "Кантемировская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 45,
+          "order": 19,
+          "title": "Царицыно",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 46,
+          "order": 20,
+          "title": "Орехово",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 47,
+          "order": 21,
+          "title": "Домодедовская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 48,
+          "order": 22,
+          "title": "Красногвардейская",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Зябликово Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 208, "order": 22, "title": "Зябликово" }
+          ]
+        },
+        {
+          "id": 49,
+          "order": 23,
+          "title": "Алма-Атинская",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "number": "03",
+      "title": "Арбатско-Покровская линия",
+      "hexColor": "0078BE",
+      "stations": [
+        {
+          "id": 50,
+          "order": 0,
+          "title": "Пятницкое шоссе",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 51,
+          "order": 1,
+          "title": "Митино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 52,
+          "order": 2,
+          "title": "Волоколамская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 53,
+          "order": 3,
+          "title": "Мякинино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 54,
+          "order": 4,
+          "title": "Строгино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 55,
+          "order": 5,
+          "title": "Крылатское",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 56,
+          "order": 6,
+          "title": "Молодёжная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 57,
+          "order": 7,
+          "title": "Кунцевская",
+          "transferToLine": [
+            {
+              "number": "04",
+              "str": "Кросс-платформенная пересадка на станцию Кунцевская Филёвской линии",
+              "title": "Филёвская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 71, "order": 0, "title": "Кунцевская" }]
+        },
+        {
+          "id": 58,
+          "order": 8,
+          "title": "Славянский бульвар",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 59,
+          "order": 9,
+          "title": "Парк Победы",
+          "transferToLine": [
+            {
+              "number": "8А",
+              "str": "Кросс-платформенная пересадка на станцию Парк Победы Солнцевской линии",
+              "title": "Солнцевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 152, "order": 10, "title": "Парк Победы" }
+          ]
+        },
+        {
+          "id": 60,
+          "order": 10,
+          "title": "Киевская",
+          "transferToLine": [
+            {
+              "number": "04",
+              "str": "Переход на станцию Киевская Филёвской линии",
+              "title": "Филёвская линия"
+            },
+            {
+              "number": "05",
+              "str": "Переход на станцию Киевская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 80, "order": 9, "title": "Киевская" },
+            { "id": 95, "order": 11, "title": "Киевская" }
+          ]
+        },
+        {
+          "id": 61,
+          "order": 11,
+          "title": "Арбатская",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Библиотека имени Ленина Сокольнической линии",
+              "title": "Сокольническая линия"
+            },
+            {
+              "number": "04",
+              "str": "Переход на станцию Александровский сад Филёвской линии",
+              "title": "Филёвская линия"
+            },
+            {
+              "number": "09",
+              "str": "Переход на станцию Боровицкая Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 10, "order": 10, "title": "Библиотека имени Ленина" },
+            { "id": 83, "order": 12, "title": "Александровский сад" },
+            { "id": 172, "order": 11, "title": "Боровицкая" }
+          ]
+        },
+        {
+          "id": 62,
+          "order": 12,
+          "title": "Площадь Революции",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Охотный Ряд Сокольнической линии",
+              "title": "Сокольническая линия"
+            },
+            {
+              "number": "02",
+              "str": "Переход на станцию Театральная Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 9, "order": 9, "title": "Охотный Ряд" },
+            { "id": 37, "order": 11, "title": "Театральная" }
+          ]
+        },
+        {
+          "id": 63,
+          "order": 13,
+          "title": "Курская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Курская Кольцевой линии",
+              "title": "Кольцевая линия"
+            },
+            {
+              "number": "10",
+              "str": "Переход на станцию Чкаловская Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 89, "order": 5, "title": "Курская" },
+            { "id": 196, "order": 10, "title": "Чкаловская" }
+          ]
+        },
+        {
+          "id": 64,
+          "order": 14,
+          "title": "Бауманская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 65,
+          "order": 15,
+          "title": "Электрозаводская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 66,
+          "order": 16,
+          "title": "Семёновская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 67,
+          "order": 17,
+          "title": "Партизанская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Измайлово Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 250, "order": 7, "title": "Измайлово" }]
+        },
+        {
+          "id": 68,
+          "order": 18,
+          "title": "Измайловская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 69,
+          "order": 19,
+          "title": "Первомайская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 70,
+          "order": 20,
+          "title": "Щёлковская",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "number": "04",
+      "title": "Филёвская линия",
+      "hexColor": "00BFFF",
+      "stations": [
+        {
+          "id": 71,
+          "order": 0,
+          "title": "Кунцевская",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Кросс-платформенная пересадка на станцию Кунцевская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 57, "order": 7, "title": "Кунцевская" }]
+        },
+        {
+          "id": 72,
+          "order": 1,
+          "title": "Пионерская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 73,
+          "order": 2,
+          "title": "Филёвский парк",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 74,
+          "order": 3,
+          "title": "Багратионовская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 75,
+          "order": 4,
+          "title": "Фили",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 76,
+          "order": 5,
+          "title": "Кутузовская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Кутузовская Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 264, "order": 21, "title": "Кутузовская" }
+          ]
+        },
+        {
+          "id": 77,
+          "order": 6,
+          "title": "Студенческая",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 78,
+          "order": 7,
+          "title": "Международная",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Деловой центр Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 265, "order": 22, "title": "Деловой центр" }
+          ]
+        },
+        {
+          "id": 79,
+          "order": 8,
+          "title": "Выставочная",
+          "transferToLine": [
+            {
+              "number": "8А",
+              "str": "Переход на станцию Деловой центр Солнцевской линии",
+              "title": "Солнцевская линия"
+            },
+            {
+              "number": "11",
+              "str": "Переход на станцию Деловой центр Большой кольцевой линии",
+              "title": "Большая кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 209, "order": 0, "title": "Деловой центр" }
+          ]
+        },
+        {
+          "id": 80,
+          "order": 9,
+          "title": "Киевская",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Переход на станцию Киевская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            },
+            {
+              "number": "05",
+              "str": "Переход на станцию Киевская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 60, "order": 10, "title": "Киевская" },
+            { "id": 95, "order": 11, "title": "Киевская" }
+          ]
+        },
+        {
+          "id": 81,
+          "order": 10,
+          "title": "Смоленская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 82,
+          "order": 11,
+          "title": "Арбатская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 83,
+          "order": 12,
+          "title": "Александровский сад",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Библиотека имени Ленина Сокольнической линии",
+              "title": "Сокольническая линия"
+            },
+            {
+              "number": "03",
+              "str": "Переход на станцию Арбатская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            },
+            {
+              "number": "09",
+              "str": "Переход на станцию Боровицкая Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 10, "order": 10, "title": "Библиотека имени Ленина" },
+            { "id": 61, "order": 11, "title": "Арбатская" },
+            { "id": 172, "order": 11, "title": "Боровицкая" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "number": "05",
+      "title": "Кольцевая линия",
+      "hexColor": "8D5B2D",
+      "stations": [
+        {
+          "id": 84,
+          "order": 0,
+          "title": "Парк культуры",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Парк культуры Сокольнической линии",
+              "title": "Сокольническая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 12, "order": 12, "title": "Парк культуры" }
+          ]
+        },
+        {
+          "id": 85,
+          "order": 1,
+          "title": "Октябрьская",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию Октябрьская Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 107, "order": 11, "title": "Октябрьская" }
+          ]
+        },
+        {
+          "id": 86,
+          "order": 2,
+          "title": "Добрынинская",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Серпуховская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 174, "order": 13, "title": "Серпуховская" }
+          ]
+        },
+        {
+          "id": 87,
+          "order": 3,
+          "title": "Павелецкая",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Павелецкая Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 39, "order": 13, "title": "Павелецкая" }
+          ]
+        },
+        {
+          "id": 88,
+          "order": 4,
+          "title": "Таганская",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Таганская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            },
+            {
+              "number": "08",
+              "str": "Переход на станцию Марксистская Калининской линии",
+              "title": "Калининская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 132, "order": 13, "title": "Таганская" },
+            { "id": 154, "order": 1, "title": "Марксистская" }
+          ]
+        },
+        {
+          "id": 89,
+          "order": 5,
+          "title": "Курская",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Переход на станцию Курская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            },
+            {
+              "number": "10",
+              "str": "Переход на станцию Чкаловская Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 63, "order": 13, "title": "Курская" },
+            { "id": 196, "order": 10, "title": "Чкаловская" }
+          ]
+        },
+        {
+          "id": 90,
+          "order": 6,
+          "title": "Комсомольская",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Комсомольская Сокольнической линии",
+              "title": "Сокольническая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 5, "order": 5, "title": "Комсомольская" }
+          ]
+        },
+        {
+          "id": 91,
+          "order": 7,
+          "title": "Проспект Мира",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию Проспект Мира Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 102, "order": 6, "title": "Проспект Мира" }
+          ]
+        },
+        {
+          "id": 92,
+          "order": 8,
+          "title": "Новослободская",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Менделеевская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 169, "order": 8, "title": "Менделеевская" }
+          ]
+        },
+        {
+          "id": 93,
+          "order": 9,
+          "title": "Белорусская",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Белорусская Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 34, "order": 8, "title": "Белорусская" }
+          ]
+        },
+        {
+          "id": 94,
+          "order": 10,
+          "title": "Краснопресненская",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Баррикадная Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 128, "order": 9, "title": "Баррикадная" }
+          ]
+        },
+        {
+          "id": 95,
+          "order": 11,
+          "title": "Киевская",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Переход на станцию Киевская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            },
+            {
+              "number": "04",
+              "str": "Переход на станцию Киевская Филёвской линии",
+              "title": "Филёвская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 60, "order": 10, "title": "Киевская" },
+            { "id": 80, "order": 9, "title": "Киевская" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "number": "06",
+      "title": "Калужско-Рижская линия",
+      "hexColor": "ED9121",
+      "stations": [
+        {
+          "id": 96,
+          "order": 0,
+          "title": "Медведково",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 97,
+          "order": 1,
+          "title": "Бабушкинская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 98,
+          "order": 2,
+          "title": "Свиблово",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 99,
+          "order": 3,
+          "title": "Ботанический сад",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Ботанический сад Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 245, "order": 2, "title": "Ботанический сад" }
+          ]
+        },
+        {
+          "id": 100,
+          "order": 4,
+          "title": "ВДНХ",
+          "transferToLine": [
+            {
+              "number": "13",
+              "str": "Переход на станцию Выставочный центр Московского монорельса",
+              "title": "Московский монорельс"
+            }
+          ],
+          "transferToStation": [
+            { "id": 241, "order": 4, "title": "Выставочный центр" }
+          ]
+        },
+        {
+          "id": 101,
+          "order": 5,
+          "title": "Алексеевская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 102,
+          "order": 6,
+          "title": "Проспект Мира",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Проспект Мира Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 91, "order": 7, "title": "Проспект Мира" }
+          ]
+        },
+        {
+          "id": 103,
+          "order": 7,
+          "title": "Сухаревская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 104,
+          "order": 8,
+          "title": "Тургеневская",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Чистые пруды Сокольнической линии",
+              "title": "Сокольническая линия"
+            },
+            {
+              "number": "10",
+              "str": "Переход на станцию Сретенский бульвар Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 7, "order": 7, "title": "Чистые пруды" },
+            { "id": 195, "order": 9, "title": "Сретенский бульвар" }
+          ]
+        },
+        {
+          "id": 105,
+          "order": 9,
+          "title": "Китай-город",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Кросс-платформенная пересадка на станцию Китай-город Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 131, "order": 12, "title": "Китай-город" }
+          ]
+        },
+        {
+          "id": 106,
+          "order": 10,
+          "title": "Третьяковская",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Новокузнецкая Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            },
+            {
+              "number": "08",
+              "str": "Кросс-платформенная пересадка на станцию Третьяковская Калининской линии",
+              "title": "Калининская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 38, "order": 12, "title": "Новокузнецкая" },
+            { "id": 153, "order": 0, "title": "Третьяковская" }
+          ]
+        },
+        {
+          "id": 107,
+          "order": 11,
+          "title": "Октябрьская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Октябрьская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 85, "order": 1, "title": "Октябрьская" }
+          ]
+        },
+        {
+          "id": 108,
+          "order": 12,
+          "title": "Шаболовская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 109,
+          "order": 13,
+          "title": "Ленинский проспект",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Площадь Гагарина Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 262, "order": 19, "title": "Площадь Гагарина" }
+          ]
+        },
+        {
+          "id": 110,
+          "order": 14,
+          "title": "Академическая",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 111,
+          "order": 15,
+          "title": "Профсоюзная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 112,
+          "order": 16,
+          "title": "Новые Черёмушки",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 113,
+          "order": 17,
+          "title": "Калужская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 114,
+          "order": 18,
+          "title": "Беляево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 115,
+          "order": 19,
+          "title": "Коньково",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 116,
+          "order": 20,
+          "title": "Тёплый Стан",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 117,
+          "order": 21,
+          "title": "Ясенево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 118,
+          "order": 22,
+          "title": "Новоясеневская",
+          "transferToLine": [
+            {
+              "number": "12",
+              "str": "Переход на станцию Битцевский парк Бутовской линии",
+              "title": "Бутовская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 220, "order": 0, "title": "Битцевский парк" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "number": "07",
+      "title": "Таганско-Краснопресненская линия",
+      "hexColor": "800080",
+      "stations": [
+        {
+          "id": 119,
+          "order": 0,
+          "title": "Планерная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 120,
+          "order": 1,
+          "title": "Сходненская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 121,
+          "order": 2,
+          "title": "Тушинская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 122,
+          "order": 3,
+          "title": "Спартак",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 123,
+          "order": 4,
+          "title": "Щукинская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 124,
+          "order": 5,
+          "title": "Октябрьское Поле",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Панфиловская Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            },
+            {
+              "number": "14",
+              "str": "Переход на станцию Зорге Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 269, "order": 26, "title": "Панфиловская" },
+            { "id": 268, "order": 25, "title": "Зорге" }
+          ]
+        },
+        {
+          "id": 125,
+          "order": 6,
+          "title": "Полежаевская",
+          "transferToLine": [
+            {
+              "number": "8А",
+              "str": "Переход на станцию Хорошёвская Солнцевской линии",
+              "title": "Солнцевская линия"
+            },
+            {
+              "number": "11",
+              "str": "Переход на станцию Хорошёвская Большой кольцевой линии",
+              "title": "Большая кольцевая линия"
+            },
+            {
+              "number": "14",
+              "str": "Переход на станцию Хорошёво Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 212, "order": 12, "title": "Хорошёвская" },
+            { "id": 213, "order": 2, "title": "Хорошёвская" },
+            { "id": 267, "order": 24, "title": "Хорошёво" }
+          ]
+        },
+        {
+          "id": 126,
+          "order": 7,
+          "title": "Беговая",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 127,
+          "order": 8,
+          "title": "Улица 1905 года",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 128,
+          "order": 9,
+          "title": "Баррикадная",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Краснопресненская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 94, "order": 10, "title": "Краснопресненская" }
+          ]
+        },
+        {
+          "id": 129,
+          "order": 10,
+          "title": "Пушкинская",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Тверская Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            },
+            {
+              "number": "09",
+              "str": "Переход на станцию Чеховская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 36, "order": 10, "title": "Тверская" },
+            { "id": 171, "order": 10, "title": "Чеховская" }
+          ]
+        },
+        {
+          "id": 130,
+          "order": 11,
+          "title": "Кузнецкий Мост",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Лубянка Сокольнической линии",
+              "title": "Сокольническая линия"
+            }
+          ],
+          "transferToStation": [{ "id": 8, "order": 8, "title": "Лубянка" }]
+        },
+        {
+          "id": 131,
+          "order": 12,
+          "title": "Китай-город",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Кросс-платформенная пересадка на станцию Китай-город Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 105, "order": 9, "title": "Китай-город" }
+          ]
+        },
+        {
+          "id": 132,
+          "order": 13,
+          "title": "Таганская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Таганская Кольцевой линии",
+              "title": "Кольцевая линия"
+            },
+            {
+              "number": "08",
+              "str": "Переход на станцию Марксистская Калининской линии",
+              "title": "Калининская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 88, "order": 4, "title": "Таганская" },
+            { "id": 154, "order": 1, "title": "Марксистская" }
+          ]
+        },
+        {
+          "id": 133,
+          "order": 14,
+          "title": "Пролетарская",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Крестьянская застава Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 198, "order": 12, "title": "Крестьянская застава" }
+          ]
+        },
+        {
+          "id": 134,
+          "order": 15,
+          "title": "Волгоградский проспект",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Угрешская Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 256, "order": 13, "title": "Угрешская" }
+          ]
+        },
+        {
+          "id": 135,
+          "order": 16,
+          "title": "Текстильщики",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 136,
+          "order": 17,
+          "title": "Кузьминки",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 137,
+          "order": 18,
+          "title": "Рязанский проспект",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 138,
+          "order": 19,
+          "title": "Выхино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 139,
+          "order": 20,
+          "title": "Лермонтовский проспект",
+          "transferToLine": [
+            {
+              "number": "15",
+              "str": "Переход на станцию Косино Некрасовской линии",
+              "title": "Некрасовская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 233, "order": 6, "title": "Косино" }]
+        },
+        {
+          "id": 140,
+          "order": 21,
+          "title": "Жулебино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 141,
+          "order": 22,
+          "title": "Котельники",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "number": "8А",
+      "title": "Солнцевская линия",
+      "hexColor": "FFD702",
+      "stations": [
+        {
+          "id": 142,
+          "order": 0,
+          "title": "Рассказовка",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 143,
+          "order": 1,
+          "title": "Новопеределкино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 144,
+          "order": 2,
+          "title": "Боровское шоссе",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 145,
+          "order": 3,
+          "title": "Солнцево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 146,
+          "order": 4,
+          "title": "Говорово",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 147,
+          "order": 5,
+          "title": "Озёрная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 148,
+          "order": 6,
+          "title": "Мичуринский проспект",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 149,
+          "order": 7,
+          "title": "Раменки",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 150,
+          "order": 8,
+          "title": "Ломоносовский проспект",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 151,
+          "order": 9,
+          "title": "Минская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 152,
+          "order": 10,
+          "title": "Парк Победы",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Кросс-платформенная пересадка на станцию Парк Победы Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 59, "order": 9, "title": "Парк Победы" }
+          ]
+        },
+        {
+          "id": 210,
+          "order": 11,
+          "title": "Шелепиха",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Шелепиха Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 266, "order": 23, "title": "Шелепиха" }]
+        },
+        {
+          "id": 212,
+          "order": 12,
+          "title": "Хорошёвская",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Полежаевская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            },
+            {
+              "number": "14",
+              "str": "Переход на станцию Хорошёво Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 125, "order": 6, "title": "Полежаевская" },
+            { "id": 267, "order": 24, "title": "Хорошёво" }
+          ]
+        },
+        {
+          "id": 214,
+          "order": 13,
+          "title": "ЦСКА",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 216,
+          "order": 14,
+          "title": "Петровский парк",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Динамо Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [{ "id": 33, "order": 7, "title": "Динамо" }]
+        },
+        {
+          "id": 218,
+          "order": 15,
+          "title": "Савёловская",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Савёловская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 168, "order": 7, "title": "Савёловская" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "number": "08",
+      "title": "Калининская линия",
+      "hexColor": "FFD702",
+      "stations": [
+        {
+          "id": 153,
+          "order": 0,
+          "title": "Третьяковская",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Новокузнецкая Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            },
+            {
+              "number": "06",
+              "str": "Кросс-платформенная пересадка на станцию Третьяковская Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 38, "order": 12, "title": "Новокузнецкая" },
+            { "id": 106, "order": 10, "title": "Третьяковская" }
+          ]
+        },
+        {
+          "id": 154,
+          "order": 1,
+          "title": "Марксистская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Таганская Кольцевой линии",
+              "title": "Кольцевая линия"
+            },
+            {
+              "number": "07",
+              "str": "Переход на станцию Таганская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 88, "order": 4, "title": "Таганская" },
+            { "id": 132, "order": 13, "title": "Таганская" }
+          ]
+        },
+        {
+          "id": 155,
+          "order": 2,
+          "title": "Площадь Ильича",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Римская Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 197, "order": 11, "title": "Римская" }]
+        },
+        {
+          "id": 156,
+          "order": 3,
+          "title": "Авиамоторная",
+          "transferToLine": [
+            {
+              "number": "15",
+              "str": "Переход на станцию Авиамоторная Некрасовской линии",
+              "title": "Некрасовская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 228, "order": 1, "title": "Авиамоторная" }
+          ]
+        },
+        {
+          "id": 157,
+          "order": 4,
+          "title": "Шоссе Энтузиастов",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Шоссе Энтузиастов Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 252, "order": 9, "title": "Шоссе Энтузиастов" }
+          ]
+        },
+        {
+          "id": 158,
+          "order": 5,
+          "title": "Перово",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 159,
+          "order": 6,
+          "title": "Новогиреево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 160,
+          "order": 7,
+          "title": "Новокосино",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "number": "09",
+      "title": "Серпуховско-Тимирязевская линия",
+      "hexColor": "999999",
+      "stations": [
+        {
+          "id": 161,
+          "order": 0,
+          "title": "Алтуфьево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 162,
+          "order": 1,
+          "title": "Бибирево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 163,
+          "order": 2,
+          "title": "Отрадное",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 164,
+          "order": 3,
+          "title": "Владыкино",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Владыкино Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 244, "order": 1, "title": "Владыкино" }]
+        },
+        {
+          "id": 165,
+          "order": 4,
+          "title": "Петровско-Разумовская",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Петровско-Разумовская Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 189, "order": 3, "title": "Петровско-Разумовская" }
+          ]
+        },
+        {
+          "id": 166,
+          "order": 5,
+          "title": "Тимирязевская",
+          "transferToLine": [
+            {
+              "number": "13",
+              "str": "Переход на станцию Тимирязевская Московского монорельса",
+              "title": "Московский монорельс"
+            }
+          ],
+          "transferToStation": [
+            { "id": 237, "order": 0, "title": "Тимирязевская" }
+          ]
+        },
+        {
+          "id": 167,
+          "order": 6,
+          "title": "Дмитровская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 168,
+          "order": 7,
+          "title": "Савёловская",
+          "transferToLine": [
+            {
+              "number": "8А",
+              "str": "Переход на станцию Савёловская Солнцевской линии",
+              "title": "Солнцевская линия"
+            },
+            {
+              "number": "11",
+              "str": "Переход на станцию Савёловская Большой кольцевой линии",
+              "title": "Большая кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 218, "order": 15, "title": "Савёловская" },
+            { "id": 219, "order": 5, "title": "Савёловская" }
+          ]
+        },
+        {
+          "id": 169,
+          "order": 8,
+          "title": "Менделеевская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Новослободская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 92, "order": 8, "title": "Новослободская" }
+          ]
+        },
+        {
+          "id": 170,
+          "order": 9,
+          "title": "Цветной бульвар",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Трубная Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 194, "order": 8, "title": "Трубная" }]
+        },
+        {
+          "id": 171,
+          "order": 10,
+          "title": "Чеховская",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Тверская Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            },
+            {
+              "number": "07",
+              "str": "Переход на станцию Пушкинская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 36, "order": 10, "title": "Тверская" },
+            { "id": 129, "order": 10, "title": "Пушкинская" }
+          ]
+        },
+        {
+          "id": 172,
+          "order": 11,
+          "title": "Боровицкая",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Библиотека имени Ленина Сокольнической линии",
+              "title": "Сокольническая линия"
+            },
+            {
+              "number": "03",
+              "str": "Переход на станцию Арбатская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            },
+            {
+              "number": "04",
+              "str": "Переход на станцию Александровский сад Филёвской линии",
+              "title": "Филёвская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 10, "order": 10, "title": "Библиотека имени Ленина" },
+            { "id": 61, "order": 11, "title": "Арбатская" },
+            { "id": 83, "order": 12, "title": "Александровский сад" }
+          ]
+        },
+        {
+          "id": 173,
+          "order": 12,
+          "title": "Полянка",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 174,
+          "order": 13,
+          "title": "Серпуховская",
+          "transferToLine": [
+            {
+              "number": "05",
+              "str": "Переход на станцию Добрынинская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 86, "order": 2, "title": "Добрынинская" }
+          ]
+        },
+        {
+          "id": 175,
+          "order": 14,
+          "title": "Тульская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 176,
+          "order": 15,
+          "title": "Нагатинская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Верхние Котлы Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 260, "order": 17, "title": "Верхние Котлы" }
+          ]
+        },
+        {
+          "id": 177,
+          "order": 16,
+          "title": "Нагорная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 178,
+          "order": 17,
+          "title": "Нахимовский проспект",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 179,
+          "order": 18,
+          "title": "Севастопольская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 180,
+          "order": 19,
+          "title": "Чертановская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 181,
+          "order": 20,
+          "title": "Южная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 182,
+          "order": 21,
+          "title": "Пражская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 183,
+          "order": 22,
+          "title": "Улица Академика Янгеля",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 184,
+          "order": 23,
+          "title": "Аннино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 185,
+          "order": 24,
+          "title": "Бульвар Дмитрия Донского",
+          "transferToLine": [
+            {
+              "number": "12",
+              "str": "Переход на станцию Улица Старокачаловская Бутовской линии",
+              "title": "Бутовская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 222, "order": 2, "title": "Улица Старокачаловская" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "number": "10",
+      "title": "Люблинско-Дмитровская линия",
+      "hexColor": "99CC00",
+      "stations": [
+        {
+          "id": 186,
+          "order": 0,
+          "title": "Селигерская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 187,
+          "order": 1,
+          "title": "Верхние Лихоборы",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 188,
+          "order": 2,
+          "title": "Окружная",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Окружная Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 243, "order": 0, "title": "Окружная" }]
+        },
+        {
+          "id": 189,
+          "order": 3,
+          "title": "Петровско-Разумовская",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Петровско-Разумовская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 165, "order": 4, "title": "Петровско-Разумовская" }
+          ]
+        },
+        {
+          "id": 190,
+          "order": 4,
+          "title": "Фонвизинская",
+          "transferToLine": [
+            {
+              "number": "13",
+              "str": "Переход на станцию Улица Милашенкова Московского монорельса",
+              "title": "Московский монорельс"
+            }
+          ],
+          "transferToStation": [
+            { "id": 238, "order": 1, "title": "Улица Милашенкова" }
+          ]
+        },
+        {
+          "id": 191,
+          "order": 5,
+          "title": "Бутырская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 192,
+          "order": 6,
+          "title": "Марьина Роща",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 193,
+          "order": 7,
+          "title": "Достоевская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 194,
+          "order": 8,
+          "title": "Трубная",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Цветной бульвар Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 170, "order": 9, "title": "Цветной бульвар" }
+          ]
+        },
+        {
+          "id": 195,
+          "order": 9,
+          "title": "Сретенский бульвар",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Чистые пруды Сокольнической линии",
+              "title": "Сокольническая линия"
+            },
+            {
+              "number": "06",
+              "str": "Переход на станцию Тургеневская Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 7, "order": 7, "title": "Чистые пруды" },
+            { "id": 104, "order": 8, "title": "Тургеневская" }
+          ]
+        },
+        {
+          "id": 196,
+          "order": 10,
+          "title": "Чкаловская",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Переход на станцию Курская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            },
+            {
+              "number": "05",
+              "str": "Переход на станцию Курская Кольцевой линии",
+              "title": "Кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 63, "order": 13, "title": "Курская" },
+            { "id": 89, "order": 5, "title": "Курская" }
+          ]
+        },
+        {
+          "id": 197,
+          "order": 11,
+          "title": "Римская",
+          "transferToLine": [
+            {
+              "number": "08",
+              "str": "Переход на станцию Площадь Ильича Калининской линии",
+              "title": "Калининская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 155, "order": 2, "title": "Площадь Ильича" }
+          ]
+        },
+        {
+          "id": 198,
+          "order": 12,
+          "title": "Крестьянская застава",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Пролетарская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 133, "order": 14, "title": "Пролетарская" }
+          ]
+        },
+        {
+          "id": 199,
+          "order": 13,
+          "title": "Дубровка",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Дубровка Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 257, "order": 14, "title": "Дубровка" }]
+        },
+        {
+          "id": 200,
+          "order": 14,
+          "title": "Кожуховская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Дубровка Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 257, "order": 14, "title": "Дубровка" }]
+        },
+        {
+          "id": 201,
+          "order": 15,
+          "title": "Печатники",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 202,
+          "order": 16,
+          "title": "Волжская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 203,
+          "order": 17,
+          "title": "Люблино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 204,
+          "order": 18,
+          "title": "Братиславская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 205,
+          "order": 19,
+          "title": "Марьино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 206,
+          "order": 20,
+          "title": "Борисово",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 207,
+          "order": 21,
+          "title": "Шипиловская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 208,
+          "order": 22,
+          "title": "Зябликово",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Красногвардейская Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 48, "order": 22, "title": "Красногвардейская" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "number": "11",
+      "title": "Большая кольцевая линия",
+      "hexColor": "82C0C0",
+      "stations": [
+        {
+          "id": 209,
+          "order": 0,
+          "title": "Деловой центр",
+          "transferToLine": [
+            {
+              "number": "04",
+              "str": "Переход на станцию Выставочная Филёвской линии",
+              "title": "Филёвская линия"
+            },
+            {
+              "number": "8А",
+              "str": "Переход на станцию Деловой центр Солнцевской линии",
+              "title": "Солнцевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 79, "order": 8, "title": "Выставочная" }
+          ]
+        },
+        {
+          "id": 211,
+          "order": 1,
+          "title": "Шелепиха",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Шелепиха Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [{ "id": 266, "order": 23, "title": "Шелепиха" }]
+        },
+        {
+          "id": 213,
+          "order": 2,
+          "title": "Хорошёвская",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Полежаевская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            },
+            {
+              "number": "14",
+              "str": "Переход на станцию Хорошёво Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 125, "order": 6, "title": "Полежаевская" },
+            { "id": 267, "order": 24, "title": "Хорошёво" }
+          ]
+        },
+        {
+          "id": 215,
+          "order": 3,
+          "title": "ЦСКА",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 217,
+          "order": 4,
+          "title": "Петровский парк",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Динамо Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [{ "id": 33, "order": 7, "title": "Динамо" }]
+        },
+        {
+          "id": 219,
+          "order": 5,
+          "title": "Савёловская",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Савёловская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 168, "order": 7, "title": "Савёловская" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "number": "12",
+      "title": "Бутовская линия",
+      "hexColor": "A1B3D4",
+      "stations": [
+        {
+          "id": 220,
+          "order": 0,
+          "title": "Битцевский парк",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию Новоясеневская Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 118, "order": 22, "title": "Новоясеневская" }
+          ]
+        },
+        {
+          "id": 221,
+          "order": 1,
+          "title": "Лесопарковая",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 222,
+          "order": 2,
+          "title": "Улица Старокачаловская",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Бульвар Дмитрия Донского Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 185, "order": 24, "title": "Бульвар Дмитрия Донского" }
+          ]
+        },
+        {
+          "id": 223,
+          "order": 3,
+          "title": "Улица Скобелевская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 224,
+          "order": 4,
+          "title": "Бульвар Адмирала Ушакова",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 225,
+          "order": 5,
+          "title": "Улица Горчакова",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 226,
+          "order": 6,
+          "title": "Бунинская аллея",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "number": "15",
+      "title": "Некрасовская линия",
+      "hexColor": "DE64A1",
+      "stations": [
+        {
+          "id": 227,
+          "order": 0,
+          "title": "Лефортово",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 228,
+          "order": 1,
+          "title": "Авиамоторная",
+          "transferToLine": [
+            {
+              "number": "08",
+              "str": "Переход на станцию Авиамоторная Калининской линии",
+              "title": "Калининская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 156, "order": 3, "title": "Авиамоторная" }
+          ]
+        },
+        {
+          "id": 229,
+          "order": 2,
+          "title": "Нижегородская",
+          "transferToLine": [
+            {
+              "number": "14",
+              "str": "Переход на станцию Нижегородская Московского центрального кольца",
+              "title": "Московское центральное кольцо"
+            }
+          ],
+          "transferToStation": [
+            { "id": 254, "order": 11, "title": "Нижегородская" }
+          ]
+        },
+        {
+          "id": 230,
+          "order": 3,
+          "title": "Стахановская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 231,
+          "order": 4,
+          "title": "Окская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 232,
+          "order": 5,
+          "title": "Юго-Восточная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 233,
+          "order": 6,
+          "title": "Косино",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Лермонтовский проспект Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 139, "order": 20, "title": "Лермонтовский проспект" }
+          ]
+        },
+        {
+          "id": 234,
+          "order": 7,
+          "title": "Улица Дмитриевского",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 235,
+          "order": 8,
+          "title": "Лухмановская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 236,
+          "order": 9,
+          "title": "Некрасовка",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "number": "13",
+      "title": "Московский монорельс",
+      "hexColor": "9999FF",
+      "stations": [
+        {
+          "id": 237,
+          "order": 0,
+          "title": "Тимирязевская",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Тимирязевская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 166, "order": 5, "title": "Тимирязевская" }
+          ]
+        },
+        {
+          "id": 238,
+          "order": 1,
+          "title": "Улица Милашенкова",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Фонвизинская Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 190, "order": 4, "title": "Фонвизинская" }
+          ]
+        },
+        {
+          "id": 239,
+          "order": 2,
+          "title": "Телецентр",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 240,
+          "order": 3,
+          "title": "Улица Академика Королёва",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 241,
+          "order": 4,
+          "title": "Выставочный центр",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию ВДНХ Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 100, "order": 4, "title": "ВДНХ" }]
+        },
+        {
+          "id": 242,
+          "order": 5,
+          "title": "Улица Сергея Эйзенштейна",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "number": "14",
+      "title": "Московское центральное кольцо",
+      "hexColor": "FFFFFF",
+      "stations": [
+        {
+          "id": 243,
+          "order": 0,
+          "title": "Окружная",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Окружная Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 188, "order": 2, "title": "Окружная" }]
+        },
+        {
+          "id": 244,
+          "order": 1,
+          "title": "Владыкино",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Владыкино Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [{ "id": 164, "order": 3, "title": "Владыкино" }]
+        },
+        {
+          "id": 245,
+          "order": 2,
+          "title": "Ботанический сад",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию Ботанический сад Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 99, "order": 3, "title": "Ботанический сад" }
+          ]
+        },
+        {
+          "id": 246,
+          "order": 3,
+          "title": "Ростокино",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 247,
+          "order": 4,
+          "title": "Белокаменная",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 248,
+          "order": 5,
+          "title": "Бульвар Рокоссовского",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Бульвар Рокоссовского Сокольнической линии",
+              "title": "Сокольническая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 0, "order": 0, "title": "Бульвар Рокоссовского" }
+          ]
+        },
+        {
+          "id": 249,
+          "order": 6,
+          "title": "Локомотив",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Черкизовская Сокольнической линии",
+              "title": "Сокольническая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 1, "order": 1, "title": "Черкизовская" }
+          ]
+        },
+        {
+          "id": 250,
+          "order": 7,
+          "title": "Измайлово",
+          "transferToLine": [
+            {
+              "number": "03",
+              "str": "Переход на станцию Партизанская Арбатско-Покровской линии",
+              "title": "Арбатско-Покровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 67, "order": 17, "title": "Партизанская" }
+          ]
+        },
+        {
+          "id": 251,
+          "order": 8,
+          "title": "Соколиная Гора",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 252,
+          "order": 9,
+          "title": "Шоссе Энтузиастов",
+          "transferToLine": [
+            {
+              "number": "08",
+              "str": "Переход на станцию Шоссе Энтузиастов Калининской линии",
+              "title": "Калининская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 157, "order": 4, "title": "Шоссе Энтузиастов" }
+          ]
+        },
+        {
+          "id": 253,
+          "order": 10,
+          "title": "Андроновка",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 254,
+          "order": 11,
+          "title": "Нижегородская",
+          "transferToLine": [
+            {
+              "number": "15",
+              "str": "Переход на станцию Нижегородская Некрасовской линии",
+              "title": "Некрасовская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 229, "order": 2, "title": "Нижегородская" }
+          ]
+        },
+        {
+          "id": 255,
+          "order": 12,
+          "title": "Новохохловская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 256,
+          "order": 13,
+          "title": "Угрешская",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Волгоградский проспект Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 134, "order": 15, "title": "Волгоградский проспект" }
+          ]
+        },
+        {
+          "id": 257,
+          "order": 14,
+          "title": "Дубровка",
+          "transferToLine": [
+            {
+              "number": "10",
+              "str": "Переход на станцию Дубровка Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            },
+            {
+              "number": "10",
+              "str": "Переход на станцию Кожуховская Люблинско-Дмитровской линии",
+              "title": "Люблинско-Дмитровская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 199, "order": 13, "title": "Дубровка" },
+            { "id": 200, "order": 14, "title": "Кожуховская" }
+          ]
+        },
+        {
+          "id": 258,
+          "order": 15,
+          "title": "Автозаводская",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Автозаводская Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 40, "order": 14, "title": "Автозаводская" }
+          ]
+        },
+        {
+          "id": 259,
+          "order": 16,
+          "title": "ЗИЛ",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 260,
+          "order": 17,
+          "title": "Верхние Котлы",
+          "transferToLine": [
+            {
+              "number": "09",
+              "str": "Переход на станцию Нагатинская Серпуховско-Тимирязевской линии",
+              "title": "Серпуховско-Тимирязевская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 176, "order": 15, "title": "Нагатинская" }
+          ]
+        },
+        {
+          "id": 261,
+          "order": 18,
+          "title": "Крымская",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 262,
+          "order": 19,
+          "title": "Площадь Гагарина",
+          "transferToLine": [
+            {
+              "number": "06",
+              "str": "Переход на станцию Ленинский проспект Калужско-Рижской линии",
+              "title": "Калужско-Рижская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 109, "order": 13, "title": "Ленинский проспект" }
+          ]
+        },
+        {
+          "id": 263,
+          "order": 20,
+          "title": "Лужники",
+          "transferToLine": [
+            {
+              "number": "01",
+              "str": "Переход на станцию Спортивная Сокольнической линии",
+              "title": "Сокольническая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 14, "order": 14, "title": "Спортивная" }
+          ]
+        },
+        {
+          "id": 264,
+          "order": 21,
+          "title": "Кутузовская",
+          "transferToLine": [
+            {
+              "number": "04",
+              "str": "Переход на станцию Кутузовская Филёвской линии",
+              "title": "Филёвская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 76, "order": 5, "title": "Кутузовская" }
+          ]
+        },
+        {
+          "id": 265,
+          "order": 22,
+          "title": "Деловой центр",
+          "transferToLine": [
+            {
+              "number": "04",
+              "str": "Переход на станцию Международная Филёвской линии",
+              "title": "Филёвская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 78, "order": 7, "title": "Международная" }
+          ]
+        },
+        {
+          "id": 266,
+          "order": 23,
+          "title": "Шелепиха",
+          "transferToLine": [
+            {
+              "number": "8А",
+              "str": "Переход на станцию Шелепиха Солнцевской линии",
+              "title": "Солнцевская линия"
+            },
+            {
+              "number": "11",
+              "str": "Переход на станцию Шелепиха Большой кольцевой линии",
+              "title": "Большая кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 210, "order": 11, "title": "Шелепиха" },
+            { "id": 211, "order": 1, "title": "Шелепиха" }
+          ]
+        },
+        {
+          "id": 267,
+          "order": 24,
+          "title": "Хорошёво",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Полежаевская Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            },
+            {
+              "number": "8А",
+              "str": "Переход на станцию Хорошёвская Солнцевской линии",
+              "title": "Солнцевская линия"
+            },
+            {
+              "number": "11",
+              "str": "Переход на станцию Хорошёвская Большой кольцевой линии",
+              "title": "Большая кольцевая линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 125, "order": 6, "title": "Полежаевская" },
+            { "id": 212, "order": 12, "title": "Хорошёвская" },
+            { "id": 213, "order": 2, "title": "Хорошёвская" }
+          ]
+        },
+        {
+          "id": 268,
+          "order": 25,
+          "title": "Зорге",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Октябрьское Поле Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 124, "order": 5, "title": "Октябрьское Поле" }
+          ]
+        },
+        {
+          "id": 269,
+          "order": 26,
+          "title": "Панфиловская",
+          "transferToLine": [
+            {
+              "number": "07",
+              "str": "Переход на станцию Октябрьское Поле Таганско-Краснопресненской линии",
+              "title": "Таганско-Краснопресненская линия"
+            }
+          ],
+          "transferToStation": [
+            { "id": 124, "order": 5, "title": "Октябрьское Поле" }
+          ]
+        },
+        {
+          "id": 270,
+          "order": 27,
+          "title": "Стрешнево",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Войковская Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [{ "id": 30, "order": 4, "title": "Войковская" }]
+        },
+        {
+          "id": 271,
+          "order": 28,
+          "title": "Балтийская",
+          "transferToLine": [
+            {
+              "number": "02",
+              "str": "Переход на станцию Войковская Замоскворецкой линии",
+              "title": "Замоскворецкая линия"
+            }
+          ],
+          "transferToStation": [{ "id": 30, "order": 4, "title": "Войковская" }]
+        },
+        {
+          "id": 272,
+          "order": 29,
+          "title": "Коптево",
+          "transferToLine": [],
+          "transferToStation": []
+        },
+        {
+          "id": 273,
+          "order": 30,
+          "title": "Лихоборы",
+          "transferToLine": [],
+          "transferToStation": []
+        }
+      ]
+    }
+  ]
+}
